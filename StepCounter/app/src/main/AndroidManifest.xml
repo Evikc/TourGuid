@@ -2,15 +2,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <!-- Шаги / датчики (Wear OS + Health Services) -->
-    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
-    <!-- Android 13+ -->
+    <!-- Геолокация -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    
+    <!-- Уведомления -->
     <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
     <!-- Foreground service -->
     <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_LOCATION" />
     <!-- После перезагрузки — WorkManager перезапускает сервис -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-
+    
     <application
         android:name=".StepsApplication"
         android:allowBackup="true"
@@ -32,9 +36,9 @@
         </activity>
 
         <service
-            android:name=".service.StepCounterService"
+            android:name=".service.LocationTrackerService"
             android:exported="false"
-            android:foregroundServiceType="dataSync" />
+            android:foregroundServiceType="location" />
 
         <receiver
             android:name=".receiver.BootCompletedReceiver"
