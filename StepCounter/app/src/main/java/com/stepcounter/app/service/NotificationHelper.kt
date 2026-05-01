@@ -32,18 +32,23 @@ class NotificationHelper @Inject constructor(
 
     fun ensureChannels() {
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.O) return
-        val stepsChannel = NotificationChannel(
-            CHANNEL_STEPS,
-            context.getString(R.string.steps_channel_name),
+        
+        val locationChannel = NotificationChannel(
+            CHANNEL_LOCATION,
+            context.getString(R.string.location_channel_name),
             NotificationManager.IMPORTANCE_LOW,
         ).apply {
-            description = context.getString(R.string.steps_channel_desc)
+            description = context.getString(R.string.location_channel_desc)
         }
-        val goalChannel = NotificationChannel(
-            CHANNEL_GOAL,
-            context.getString(R.string.goal_reached_title),
+        
+        val attractionChannel = NotificationChannel(
+            CHANNEL_ATTRACTION,
+            context.getString(R.string.attraction_channel_name),
             NotificationManager.IMPORTANCE_HIGH,
-        )
+        ).apply {
+            description = context.getString(R.string.attraction_channel_desc)
+        }
+        
         val motivationChannel = NotificationChannel(
             CHANNEL_MOTIVATION,
             context.getString(R.string.motivation_channel_name),
@@ -51,8 +56,9 @@ class NotificationHelper @Inject constructor(
         ).apply {
             description = context.getString(R.string.motivation_channel_desc)
         }
-        manager.createNotificationChannel(stepsChannel)
-        manager.createNotificationChannel(goalChannel)
+        
+        manager.createNotificationChannel(locationChannel)
+        manager.createNotificationChannel(attractionChannel)
         manager.createNotificationChannel(motivationChannel)
     }
 
@@ -64,10 +70,10 @@ class NotificationHelper @Inject constructor(
             Intent(context, MainActivity::class.java),
             PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT,
         )
-        return NotificationCompat.Builder(context, CHANNEL_STEPS)
+        return NotificationCompat.Builder(context, CHANNEL_LOCATION)
             .setContentTitle(context.getString(R.string.foreground_notification_title))
             .setContentText(context.getString(R.string.foreground_notification_text))
-            .setSmallIcon(android.R.drawable.ic_dialog_info)
+            .setSmallIcon(android.R.drawable.ic_dialog_map)
             .setContentIntent(pendingIntent)
             .setOngoing(true)
             .build()
@@ -81,7 +87,7 @@ class NotificationHelper @Inject constructor(
             Intent(context, MainActivity::class.java),
             PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT,
         )
-        val notification = NotificationCompat.Builder(context, CHANNEL_GOAL)
+        val notification = NotificationCompat.Builder(context, CHANNEL_ATTRACTION)
             .setContentTitle(context.getString(R.string.goal_reached_title))
             .setContentText(context.getString(R.string.goal_reached_text))
             .setSmallIcon(android.R.drawable.ic_dialog_info)
@@ -89,6 +95,28 @@ class NotificationHelper @Inject constructor(
             .setAutoCancel(true)
             .build()
         manager.notify(GOAL_NOTIFICATION_ID, notification)
+    }
+    
+    /**
+     * Показывает уведомление о ближайшей достопримечательности.
+     */
+    fun showNearbyAttractionNotification(attractionName: String, distanceMeters: Int) {
+        ensureChannels()
+        val pendingIntent = PendingIntent.getActivity(
+            context,
+            3,
+            Intent(context, MainActivity::class.java),
+            PendingIntent.FLAG_IMMUTABLE or PendingIntent.FLAG_UPDATE_CURRENT,
+        )
+        val notification = NotificationCompat.Builder(context, CHANNEL_ATTRACTION)
+            .setContentTitle(context.getString(R.string.nearby_attraction_title))
+            .setContentText(context.getString(R.string.nearby_attraction_format, attractionName, distanceMeters))
+            .setSmallIcon(android.R.drawable.ic_dialog_map)
+            .setContentIntent(pendingIntent)
+            .setAutoCancel(true)
+            .setPriority(NotificationCompat.PRIORITY_HIGH)
+            .build()
+        manager.notify(NEARBY_ATTRACTION_NOTIFICATION_ID, notification)
     }
     
     /**
@@ -114,11 +142,13 @@ class NotificationHelper @Inject constructor(
     }
 
     companion object {
-        const val CHANNEL_STEPS = "steps_foreground"
-        const val CHANNEL_GOAL = "steps_goal"
+        const val CHANNEL_LOCATION = "location_tracking"
+        const val CHANNEL_ATTRACTION = "nearby_attraction"
         const val CHANNEL_MOTIVATION = "steps_motivation"
+        const val LOCATION_FOREGROUND_NOTIFICATION_ID = 41
         const val FOREGROUND_NOTIFICATION_ID = 42
         const val GOAL_NOTIFICATION_ID = 43
         const val MOTIVATION_NOTIFICATION_ID = 44
+        const val NEARBY_ATTRACTION_NOTIFICATION_ID = 45
     }
 }
