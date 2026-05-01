@@ -1,0 +1,22 @@
+R_DEF: Internal format may change without notice
+local
+color ic_launcher_background
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+string foreground_notification_text
+string foreground_notification_title
+string goal_label
+string goal_reached_text
+string goal_reached_title
+string goal_snackbar
+string main_title
+string nav_stats
+string permission_rationale
+string start_tracking
+string stats_title
+string steps_channel_desc
+string steps_channel_name
+string steps_format
+style Theme.StepCounter

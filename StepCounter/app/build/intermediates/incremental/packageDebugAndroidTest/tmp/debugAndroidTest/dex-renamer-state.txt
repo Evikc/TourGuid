@@ -1,0 +1,4 @@
+#Wed Apr 01 09:26:47 MSK 2026
+base.0=C\:\\Users\\mrsug\\OneDrive\\Рабочий стол\\mobile dev\\StepCounter\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+path.0=0/classes.dex
+renamed.0=classes.dex

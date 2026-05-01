@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#0D9488</color>
+    <string name="app_name">Шагомер</string>
+    <string name="foreground_notification_text">Идёт синхронизация с Health Services</string>
+    <string name="foreground_notification_title">Подсчёт шагов</string>
+    <string name="goal_label">Цель: %1$d шагов</string>
+    <string name="goal_reached_text">Вы выполнили дневную цель по шагам!</string>
+    <string name="goal_reached_title">Цель достигнута</string>
+    <string name="goal_snackbar">Отлично! Дневная цель выполнена.</string>
+    <string name="main_title">Сегодня</string>
+    <string name="nav_stats">График 7 дней</string>
+    <string name="permission_rationale">Нужны разрешения на активность и уведомления.</string>
+    <string name="start_tracking">Запустить подсчёт</string>
+    <string name="stats_title">Статистика</string>
+    <string name="steps_channel_desc">Фоновый подсчёт шагов</string>
+    <string name="steps_channel_name">Шаги</string>
+    <string name="steps_format">%1$d / %2$d</string>
+    <style name="Theme.StepCounter" parent="android:Theme.Material.Light.NoActionBar"/>
+</resources>

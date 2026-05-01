@@ -1,0 +1,76 @@
+com.stepcounter.app-emoji2-views-helper-1.4.0-0 C:\Users\mrsug\.gradle\caches\8.9\transforms\04169a4a510bb461706e898a04fe5589\transformed\emoji2-views-helper-1.4.0\res
+com.stepcounter.app-lifecycle-runtime-release-1 C:\Users\mrsug\.gradle\caches\8.9\transforms\0481749146ef8efd7f013a77df874943\transformed\lifecycle-runtime-release\res
+com.stepcounter.app-ui-tooling-data-release-2 C:\Users\mrsug\.gradle\caches\8.9\transforms\0a24550a73ff56b21b7075a1b4d7acdd\transformed\ui-tooling-data-release\res
+com.stepcounter.app-datastore-release-3 C:\Users\mrsug\.gradle\caches\8.9\transforms\0d5568e03b8cd3c78efb03c91ac3f322\transformed\datastore-release\res
+com.stepcounter.app-activity-1.9.3-4 C:\Users\mrsug\.gradle\caches\8.9\transforms\1abeb1308947a651634267673dd6ddac\transformed\activity-1.9.3\res
+com.stepcounter.app-startup-runtime-1.1.1-5 C:\Users\mrsug\.gradle\caches\8.9\transforms\1c5a64f54c449f754e3084dc9bb3b37e\transformed\startup-runtime-1.1.1\res
+com.stepcounter.app-navigation-runtime-2.8.4-6 C:\Users\mrsug\.gradle\caches\8.9\transforms\1f840606aa47625e999307772701008a\transformed\navigation-runtime-2.8.4\res
+com.stepcounter.app-appcompat-1.7.0-7 C:\Users\mrsug\.gradle\caches\8.9\transforms\23961f99a8dabe6f1e823f1d06bd463b\transformed\appcompat-1.7.0\res
+com.stepcounter.app-foundation-release-8 C:\Users\mrsug\.gradle\caches\8.9\transforms\2f9ca87d3f3d932713493630e2a459d1\transformed\foundation-release\res
+com.stepcounter.app-lifecycle-runtime-ktx-release-9 C:\Users\mrsug\.gradle\caches\8.9\transforms\3264b3eec24073af8861a63590d7d924\transformed\lifecycle-runtime-ktx-release\res
+com.stepcounter.app-lifecycle-viewmodel-savedstate-2.8.7-10 C:\Users\mrsug\.gradle\caches\8.9\transforms\357aefc6099da1c8aab4d92370271ba4\transformed\lifecycle-viewmodel-savedstate-2.8.7\res
+com.stepcounter.app-lifecycle-runtime-compose-release-11 C:\Users\mrsug\.gradle\caches\8.9\transforms\38ef6491ae6b3f38af434deb187fee12\transformed\lifecycle-runtime-compose-release\res
+com.stepcounter.app-tracing-ktx-1.2.0-12 C:\Users\mrsug\.gradle\caches\8.9\transforms\39f2edfe0f914356c6f3ea05b3cc307f\transformed\tracing-ktx-1.2.0\res
+com.stepcounter.app-ui-graphics-release-13 C:\Users\mrsug\.gradle\caches\8.9\transforms\3d897513b2247d103c732dc84fa2ea9a\transformed\ui-graphics-release\res
+com.stepcounter.app-ui-release-14 C:\Users\mrsug\.gradle\caches\8.9\transforms\4211897a2ee62d5651424acd76659b79\transformed\ui-release\res
+com.stepcounter.app-material-release-15 C:\Users\mrsug\.gradle\caches\8.9\transforms\4542349a21993e536ad41d90b8e0f167\transformed\material-release\res
+com.stepcounter.app-core-1.16.0-16 C:\Users\mrsug\.gradle\caches\8.9\transforms\4ac5cba6e95b87a3596ed0cce05c7bf3\transformed\core-1.16.0\res
+com.stepcounter.app-tracing-1.2.0-17 C:\Users\mrsug\.gradle\caches\8.9\transforms\4ba93461454f6407d2264aa7582af301\transformed\tracing-1.2.0\res
+com.stepcounter.app-profileinstaller-1.4.0-18 C:\Users\mrsug\.gradle\caches\8.9\transforms\55563e7312160136b0ff1aa121def0db\transformed\profileinstaller-1.4.0\res
+com.stepcounter.app-datastore-core-release-19 C:\Users\mrsug\.gradle\caches\8.9\transforms\5ce015836e26519befbe581861f72cb7\transformed\datastore-core-release\res
+com.stepcounter.app-lifecycle-process-2.8.7-20 C:\Users\mrsug\.gradle\caches\8.9\transforms\5f19fabd0024df8bf65c5169196b081a\transformed\lifecycle-process-2.8.7\res
+com.stepcounter.app-hilt-navigation-1.2.0-21 C:\Users\mrsug\.gradle\caches\8.9\transforms\63895bbb83816893a60a88bd3eb6687a\transformed\hilt-navigation-1.2.0\res
+com.stepcounter.app-material-ripple-release-22 C:\Users\mrsug\.gradle\caches\8.9\transforms\66acee300e1ea92aa38e4da788c99e1b\transformed\material-ripple-release\res
+com.stepcounter.app-material3-release-23 C:\Users\mrsug\.gradle\caches\8.9\transforms\6899e03d4da12da218f8e46781e07179\transformed\material3-release\res
+com.stepcounter.app-ui-geometry-release-24 C:\Users\mrsug\.gradle\caches\8.9\transforms\68a67dfed7da0aa64aeb85ad58efe4b0\transformed\ui-geometry-release\res
+com.stepcounter.app-ui-util-release-25 C:\Users\mrsug\.gradle\caches\8.9\transforms\69362561fd73b818fb15f3baed84a911\transformed\ui-util-release\res
+com.stepcounter.app-material-icons-extended-release-26 C:\Users\mrsug\.gradle\caches\8.9\transforms\6fd8fef5316b0202cd2da716c9aaa1e3\transformed\material-icons-extended-release\res
+com.stepcounter.app-graphics-path-1.0.1-27 C:\Users\mrsug\.gradle\caches\8.9\transforms\7207947083717b3854950ec073d05f06\transformed\graphics-path-1.0.1\res
+com.stepcounter.app-work-runtime-2.10.0-28 C:\Users\mrsug\.gradle\caches\8.9\transforms\73ad63ca5b007cec21f9777a64ba1d3c\transformed\work-runtime-2.10.0\res
+com.stepcounter.app-ui-text-release-29 C:\Users\mrsug\.gradle\caches\8.9\transforms\75f46b0427bd6bb5b624b03048f9d104\transformed\ui-text-release\res
+com.stepcounter.app-core-ktx-1.16.0-30 C:\Users\mrsug\.gradle\caches\8.9\transforms\78a2ecdd04bff142346134e65fcbc03f\transformed\core-ktx-1.16.0\res
+com.stepcounter.app-navigation-compose-2.8.4-31 C:\Users\mrsug\.gradle\caches\8.9\transforms\7f9721aea41f1b0084f42567c4529c39\transformed\navigation-compose-2.8.4\res
+com.stepcounter.app-annotation-experimental-1.4.1-32 C:\Users\mrsug\.gradle\caches\8.9\transforms\8096038a774d12031441e7cd2fe4ac40\transformed\annotation-experimental-1.4.1\res
+com.stepcounter.app-sqlite-2.4.0-33 C:\Users\mrsug\.gradle\caches\8.9\transforms\80c815b67ee0941ee31d9710829dc24d\transformed\sqlite-2.4.0\res
+com.stepcounter.app-core-viewtree-1.0.0-34 C:\Users\mrsug\.gradle\caches\8.9\transforms\8403a19375b6209dcdf0124824b11d21\transformed\core-viewtree-1.0.0\res
+com.stepcounter.app-ui-tooling-preview-release-35 C:\Users\mrsug\.gradle\caches\8.9\transforms\84484eb160b18585ae2234238be63eb6\transformed\ui-tooling-preview-release\res
+com.stepcounter.app-lifecycle-viewmodel-ktx-2.8.7-36 C:\Users\mrsug\.gradle\caches\8.9\transforms\8524ec16383662edd3583c8059741d2c\transformed\lifecycle-viewmodel-ktx-2.8.7\res
+com.stepcounter.app-foundation-layout-release-37 C:\Users\mrsug\.gradle\caches\8.9\transforms\8bd838d96aa9fb76d94d7fb6caa43d6e\transformed\foundation-layout-release\res
+com.stepcounter.app-core-runtime-2.2.0-38 C:\Users\mrsug\.gradle\caches\8.9\transforms\8c801450e1f1f9f199399e8af69da8b7\transformed\core-runtime-2.2.0\res
+com.stepcounter.app-lifecycle-viewmodel-release-39 C:\Users\mrsug\.gradle\caches\8.9\transforms\8e62cec7e25a409d6b4821ef29ee7ad4\transformed\lifecycle-viewmodel-release\res
+com.stepcounter.app-work-runtime-ktx-2.10.0-40 C:\Users\mrsug\.gradle\caches\8.9\transforms\8eb8bee277bb83fe4371ea2a65f9d74c\transformed\work-runtime-ktx-2.10.0\res
+com.stepcounter.app-fragment-1.5.4-41 C:\Users\mrsug\.gradle\caches\8.9\transforms\969a7665025fdb7f02ad7335db561627\transformed\fragment-1.5.4\res
+com.stepcounter.app-room-runtime-2.6.1-42 C:\Users\mrsug\.gradle\caches\8.9\transforms\9786027949989d82cc8b2a148e22e769\transformed\room-runtime-2.6.1\res
+com.stepcounter.app-datastore-preferences-release-43 C:\Users\mrsug\.gradle\caches\8.9\transforms\9a9db3b4a2c92dafb23d9622155f9f17\transformed\datastore-preferences-release\res
+com.stepcounter.app-ui-unit-release-44 C:\Users\mrsug\.gradle\caches\8.9\transforms\9cc07dad0ec689833430a3167bf83f02\transformed\ui-unit-release\res
+com.stepcounter.app-customview-poolingcontainer-1.0.0-45 C:\Users\mrsug\.gradle\caches\8.9\transforms\9d4f3baa5ffcae76cb5aab12e169425e\transformed\customview-poolingcontainer-1.0.0\res
+com.stepcounter.app-navigation-common-ktx-2.8.4-46 C:\Users\mrsug\.gradle\caches\8.9\transforms\a2fcf08830fd879287e45e080c27ed50\transformed\navigation-common-ktx-2.8.4\res
+com.stepcounter.app-animation-core-release-47 C:\Users\mrsug\.gradle\caches\8.9\transforms\a7f02528978b0c9e0270d7589da030a2\transformed\animation-core-release\res
+com.stepcounter.app-appcompat-resources-1.7.0-48 C:\Users\mrsug\.gradle\caches\8.9\transforms\a92ad660a1999d17cb11ef82ffabe782\transformed\appcompat-resources-1.7.0\res
+com.stepcounter.app-lifecycle-viewmodel-compose-release-49 C:\Users\mrsug\.gradle\caches\8.9\transforms\adab2d76191dabe71b2224f83ae58931\transformed\lifecycle-viewmodel-compose-release\res
+com.stepcounter.app-sqlite-framework-2.4.0-50 C:\Users\mrsug\.gradle\caches\8.9\transforms\af804f616dbf73da3d73d3738d46c7a2\transformed\sqlite-framework-2.4.0\res
+com.stepcounter.app-animation-release-51 C:\Users\mrsug\.gradle\caches\8.9\transforms\b2a17a9d767a642b3a4d63104dfa4837\transformed\animation-release\res
+com.stepcounter.app-lifecycle-livedata-core-2.8.7-52 C:\Users\mrsug\.gradle\caches\8.9\transforms\b5600fe3ec4fee010bb9b3eaf09f72a4\transformed\lifecycle-livedata-core-2.8.7\res
+com.stepcounter.app-savedstate-1.2.1-53 C:\Users\mrsug\.gradle\caches\8.9\transforms\bc2479ae0ac529223205a08876795f18\transformed\savedstate-1.2.1\res
+com.stepcounter.app-navigation-runtime-ktx-2.8.4-54 C:\Users\mrsug\.gradle\caches\8.9\transforms\bdd3301f58a652aa7c85e49224d75080\transformed\navigation-runtime-ktx-2.8.4\res
+com.stepcounter.app-activity-compose-1.9.3-55 C:\Users\mrsug\.gradle\caches\8.9\transforms\beea030431e1b40fefb9b46d4d905056\transformed\activity-compose-1.9.3\res
+com.stepcounter.app-lifecycle-service-2.8.7-56 C:\Users\mrsug\.gradle\caches\8.9\transforms\cc9088cfd3bfc78f91ac8de330a825bb\transformed\lifecycle-service-2.8.7\res
+com.stepcounter.app-room-ktx-2.6.1-57 C:\Users\mrsug\.gradle\caches\8.9\transforms\cf19b8c590f7234d71e2f517ca8d3491\transformed\room-ktx-2.6.1\res
+com.stepcounter.app-lifecycle-livedata-core-ktx-2.8.7-58 C:\Users\mrsug\.gradle\caches\8.9\transforms\d5b3aed6a4e774d0852276145e18785b\transformed\lifecycle-livedata-core-ktx-2.8.7\res
+com.stepcounter.app-ui-tooling-release-59 C:\Users\mrsug\.gradle\caches\8.9\transforms\d7d941074ef56af870d409583cc86519\transformed\ui-tooling-release\res
+com.stepcounter.app-navigation-common-2.8.4-60 C:\Users\mrsug\.gradle\caches\8.9\transforms\da11d43ee3c2a79480133bc1ef0efee8\transformed\navigation-common-2.8.4\res
+com.stepcounter.app-runtime-release-61 C:\Users\mrsug\.gradle\caches\8.9\transforms\e3f462e67097dbe20aa5a40f70264580\transformed\runtime-release\res
+com.stepcounter.app-lifecycle-livedata-2.8.7-62 C:\Users\mrsug\.gradle\caches\8.9\transforms\e7a759373ee3eccb8a2980700eb6c2c4\transformed\lifecycle-livedata-2.8.7\res
+com.stepcounter.app-hilt-navigation-compose-1.2.0-63 C:\Users\mrsug\.gradle\caches\8.9\transforms\ebca6c7ef5edb9d537dd0fcab907c72f\transformed\hilt-navigation-compose-1.2.0\res
+com.stepcounter.app-emoji2-1.4.0-64 C:\Users\mrsug\.gradle\caches\8.9\transforms\ec89b83b2c0d464a5516588129a14a9e\transformed\emoji2-1.4.0\res
+com.stepcounter.app-material-icons-core-release-65 C:\Users\mrsug\.gradle\caches\8.9\transforms\f7e951953f68664ae411370bc9ddae13\transformed\material-icons-core-release\res
+com.stepcounter.app-activity-ktx-1.9.3-66 C:\Users\mrsug\.gradle\caches\8.9\transforms\fa1d72cd3e9ebd5e33ff87978bc18ae8\transformed\activity-ktx-1.9.3\res
+com.stepcounter.app-runtime-saveable-release-67 C:\Users\mrsug\.gradle\caches\8.9\transforms\fc9fc6f4569294cfbf5ab75641d15254\transformed\runtime-saveable-release\res
+com.stepcounter.app-savedstate-ktx-1.2.1-68 C:\Users\mrsug\.gradle\caches\8.9\transforms\fe6e42b53a1cedd87a6e8881f51b2f30\transformed\savedstate-ktx-1.2.1\res
+com.stepcounter.app-pngs-69 C:\Users\mrsug\OneDrive\Рабочий стол\mobile dev\StepCounter\app\build\generated\res\pngs\debug
+com.stepcounter.app-resValues-70 C:\Users\mrsug\OneDrive\Рабочий стол\mobile dev\StepCounter\app\build\generated\res\resValues\debug
+com.stepcounter.app-packageDebugResources-71 C:\Users\mrsug\OneDrive\Рабочий стол\mobile dev\StepCounter\app\build\intermediates\incremental\debug\packageDebugResources\merged.dir
+com.stepcounter.app-packageDebugResources-72 C:\Users\mrsug\OneDrive\Рабочий стол\mobile dev\StepCounter\app\build\intermediates\incremental\debug\packageDebugResources\stripped.dir
+com.stepcounter.app-debug-73 C:\Users\mrsug\OneDrive\Рабочий стол\mobile dev\StepCounter\app\build\intermediates\merged_res\debug\mergeDebugResources
+com.stepcounter.app-debug-74 C:\Users\mrsug\OneDrive\Рабочий стол\mobile dev\StepCounter\app\src\debug\res
+com.stepcounter.app-main-75 C:\Users\mrsug\OneDrive\Рабочий стол\mobile dev\StepCounter\app\src\main\res
